@@ -1,0 +1,34 @@
+{
+  "name": "golive-china-skills",
+  "owner": {
+    "name": "xianyu110",
+    "url": "https://github.com/xianyu110"
+  },
+  "metadata": {
+    "description": "13 Agent Skills for launching a product in mainland China: ICP filing, public-security filing, domain & DNS, domestic cloud/CDN, WeChat Pay, Alipay, Mini Program review, app stores & software copyright, PIPL privacy policy, GenAI filing, SMS, domestic LLMs, go-live checklist",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "golive-china-skills",
+      "description": "中国大陆上线全流程 Agent Skills（中文为主）：ICP 备案、公安备案、域名实名、云与 CDN、微信支付、支付宝、小程序审核、应用商店与软著、个保法隐私政策、生成式 AI 备案、短信签名、国产大模型、上线总检查。",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/alipay",
+        "./skills/app-store-ruanzhu",
+        "./skills/china-cloud-cdn-deploy",
+        "./skills/domain-realname-dns",
+        "./skills/genai-algorithm-filing",
+        "./skills/golive-china-checklist",
+        "./skills/gongan-beian",
+        "./skills/icp-beian",
+        "./skills/llm-api-in-china",
+        "./skills/pipl-privacy-policy",
+        "./skills/sms-sign-template",
+        "./skills/wechat-miniprogram-launch",
+        "./skills/wechat-pay"
+      ]
+    }
+  ]
+}
